@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-zinc-100 text-zinc-900 antialiased;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
